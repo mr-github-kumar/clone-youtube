@@ -1,0 +1,102 @@
+#search {
+  bottom: 0;
+  height: 9%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 99%;
+  border-bottom: 0.5px;
+  border-right-style: ridge;
+  box-shadow: 0px 3px 0px #f0f0f0;
+}
+
+#left {
+  bottom: 0;
+  height: 90%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 9.5%;
+  width: 15%;
+  border-right: 1px;
+  border-right-style: ridge;
+}
+
+#right {
+  bottom: 0;
+  height: 90%;
+  left: 15.8%;
+  position: absolute;
+  right: 0;
+  top: 9.4%;
+  width: 85.8%;
+}
+
+iframe {
+  overflow: auto;
+  border: 0;
+}
+
+#help {
+  width: 5%;
+  height: 50px;
+}
+
+.has-search {
+  width: 40%;
+  text-align: center;
+  padding: 0;
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.profile-img {
+  width: 75px;
+  height: 75px;
+  border: 1px solid;
+  border-radius: 50%;
+  background: url(/youTube/img/sk1.png);
+}
+
+.has-search .form-search {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 1.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+}
+
+#playIcon {
+  width: 4.375rem;
+  height: 1.9rem;
+}
+
+.profile {
+  text-align: center;
+  margin: 10%;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+th {
+  font-weight: normal;
+}
